@@ -35,6 +35,11 @@ header {
           variaveis.$cor-primaria
         );
         font-weight: 500;
+
+        &:hover {
+          color: #0c0421;
+          font-weight: 600;
+        }
       }
     }
   }
@@ -68,6 +73,9 @@ header {
         border-radius: 66px;
         background: variaveis.$cor-default;
         font-size: 1.3rem;
+        &:hover {
+          background: variaveis.$cor-secundaria;
+        }
       }
     }
 
